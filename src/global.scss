@@ -1,0 +1,83 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
+
+input,
+select,
+textarea,
+button {
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  outline: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  transition: all 0.3s ease;
+}
